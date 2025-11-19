@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+.form{
+
+  
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #f68787;
+    border-radius: 8px;
+    background-color: #f5c98787;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #918a8a;
+    border-radius: 4px;
+  }
+
+  .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+</style>
+
+
+
+    </style>
+</head>
+<body style="background-image:url('WhatsApp\ Image\ 2025-11-05\ at\ 11.41.26_102816ae.jpg');background-size:contain;">
+    <h1 style="text-align: center;">Contact Us</h1>
+    <p style="text-align: center;  font-size: 30px; color: gray;" >If one wants to connect with us below are some of the ways you  can reach to us 
+        and we will be priviledged to connect and share with you.
+    </p>
+    <h2 style="text-align: center;font-size: 30px;">For inquiries!!!</h2>
+<form class="form" action="submit-form.php" method="POST">
+  <fieldset>
+    <legend>Send Us Your Inquiry</legend>
+
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="topic">Topic:</label><br>
+    <select id="topic" name="topic">
+      <option value="workshop">Workshop Info</option>
+      <option value="resources">Downloadable Guides</option>
+      <option value="support">Mental Health Support</option>
+    </select><br><br>
+
+    <label  for="message">Your Message:</label><br>
+    <textarea id="message" name="message" rows="10" required></textarea><br><br>
+
+    <button class="button" type="submit">Submit Inquiry</button>
+  </fieldset>
+</form>
+
+<h2 style="text-align: center;font-size: 30px;" >For Volunteering!!!</h2>
+<form class="form" action="Submit-form.php" method="post">
+<fieldset>
+<legend>Send us your interest</legend>
+<label for="name">Full name</label><br>
+<input type="text"id="name" name="name"maxlength="20" required><br><br>
+<label for="email">Email</label><br>
+<input type="text"id="email" name="email"required><br><br>
+<label for="phone">Contact</label><br>
+<input type="tel"id="Phone" name="Contact" required><br><br>
+
+<label for="Location">Preferred Location</label><br>
+<input type="text"id="Location" name="Location"required><br><br>
+<label for="name">Availability</label><br>
+<select name="Availability" id="Availability">
+<option value="Weekdays"> Weekdays</option>
+<option value="Weekends"> Weekends</option>
+<option value="Flexible">Flexible</option>
+<option value="Holidays">Holidays</option>
+</select><br><br>
+
+<label for="skills">Revelant Skills</label><br>
+<textarea name="skills" id="skills" rows="10" required></textarea><br><br>
+
+<button class="button" type="submit">Sign-up here</button><br><br>
+</fieldset>
+</form>
+
+
+<h2 style="text-align: center; font-size: 30px;">For Feedback !!!</h2>
+<form class="form" action="submit-feedback.php" method="post">
+  <fieldset>
+    <legend>Anonymous Feedback</legend>
+
+    <label for="topic">Topic:</label><br>
+    <select id="topic" name="topic">
+      <option value="workshop">Workshop Experience</option>
+      <option value="resources">Downloadable Guides</option>
+      <option value="support">Mental Health Support</option>
+    </select><br><br>
+
+    <label for="feedback">Your Feedback:</label><br>
+    <textarea id="feedback" name="feedback" rows="6" maxlength="500" required></textarea><br><br>
+
+    <button class="button" type="submit">Submit Feedback</button>
+  </fieldset>
+</form>
+
+<ul style="list-style: none;display: flex;gap: 900px;">
+<li><a href="Gallery.html" nav-button>Previous Page</a></li>
+<li><a href="Home.html" nav-button>Home Page</a></li>
+
+
+
+</ul>
+
+
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+</body>
+</html>
